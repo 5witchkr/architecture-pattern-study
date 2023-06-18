@@ -60,9 +60,19 @@ fn main() {
             qty: 5,
         },
         OrderLine {
-            orderid: String::from("order1"),
+            orderid: String::from("order3"),
             sku: String::from("sku3"),
             qty: 11,
+        },
+        OrderLine {
+            orderid: String::from("order4"),
+            sku: String::from("sku2"),
+            qty: 5,
+        },
+        OrderLine {
+            orderid: String::from("order5"),
+            sku: String::from("sku3"),
+            qty: 10,
         },
      ];
 
